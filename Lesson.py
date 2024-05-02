@@ -11,7 +11,7 @@ load_dotenv()
 TOKEN =  os.environ.get("TOKEN") # ВАЖНО !!!!!
 
 # инициализируем класс YOLO
-WORK_DIR = r'D:\les22_bot\yolo'
+WORK_DIR = r'D:\les20_bot\yolo'
 os.makedirs(WORK_DIR, exist_ok=True)
 yolov5 = TerraYoloV5(work_dir=WORK_DIR)
 
