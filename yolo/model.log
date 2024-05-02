@@ -1,180 +1,47 @@
-Collecting gitpython>=3.1.30 (from -r requirements.txt (line 5))
-  Obtaining dependency information for gitpython>=3.1.30 from https://files.pythonhosted.org/packages/e9/bd/cc3a402a6439c15c3d4294333e13042b915bbeab54edc457c723931fed3f/GitPython-3.1.43-py3-none-any.whl.metadata
-  Downloading GitPython-3.1.43-py3-none-any.whl.metadata (13 kB)
-Collecting matplotlib>=3.3 (from -r requirements.txt (line 6))
-  Obtaining dependency information for matplotlib>=3.3 from https://files.pythonhosted.org/packages/7d/ca/e7bd1876a341ed8c456095962a582696cac1691cb6e55bd5ead15a755c5d/matplotlib-3.8.4-cp312-cp312-win_amd64.whl.metadata
-  Downloading matplotlib-3.8.4-cp312-cp312-win_amd64.whl.metadata (5.9 kB)
-Collecting numpy>=1.23.5 (from -r requirements.txt (line 7))
-  Obtaining dependency information for numpy>=1.23.5 from https://files.pythonhosted.org/packages/16/2e/86f24451c2d530c88daf997cb8d6ac622c1d40d19f5a031ed68a4b73a374/numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata
-  Downloading numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata (61 kB)
-     -------------------------------------- 61.0/61.0 kB 806.3 kB/s eta 0:00:00
-Collecting opencv-python>=4.1.1 (from -r requirements.txt (line 8))
-  Obtaining dependency information for opencv-python>=4.1.1 from https://files.pythonhosted.org/packages/c7/ec/9dabb6a9abfdebb3c45b0cc52dec901caafef2b2c7e7d6a839ed86d81e91/opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl.metadata
-  Downloading opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl.metadata (20 kB)
-Collecting pillow>=10.3.0 (from -r requirements.txt (line 9))
-  Obtaining dependency information for pillow>=10.3.0 from https://files.pythonhosted.org/packages/d3/23/3927d888481ff7c44fdbca3bc2a2e97588c933db46723bf115201377c436/pillow-10.3.0-cp312-cp312-win_amd64.whl.metadata
-  Downloading pillow-10.3.0-cp312-cp312-win_amd64.whl.metadata (9.4 kB)
+Requirement already satisfied: gitpython>=3.1.30 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 5)) (3.1.43)
+Requirement already satisfied: matplotlib>=3.3 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 6)) (3.8.4)
+Requirement already satisfied: numpy>=1.23.5 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 7)) (1.26.4)
+Requirement already satisfied: opencv-python>=4.1.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 8)) (4.9.0.80)
+Requirement already satisfied: pillow>=10.3.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 9)) (10.3.0)
 Requirement already satisfied: psutil in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 10)) (5.9.6)
 Requirement already satisfied: PyYAML>=5.3.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 11)) (6.0.1)
 Requirement already satisfied: requests>=2.23.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 12)) (2.31.0)
-Collecting scipy>=1.4.1 (from -r requirements.txt (line 13))
-  Obtaining dependency information for scipy>=1.4.1 from https://files.pythonhosted.org/packages/ed/6f/ba2b2f14391291dd47d17da78c3ee644fb3a2fd6bddde664381c1968eda9/scipy-1.13.0-cp312-cp312-win_amd64.whl.metadata
-  Downloading scipy-1.13.0-cp312-cp312-win_amd64.whl.metadata (60 kB)
-     ---------------------------------------- 60.6/60.6 kB 3.4 MB/s eta 0:00:00
-Collecting thop>=0.1.1 (from -r requirements.txt (line 14))
-  Obtaining dependency information for thop>=0.1.1 from https://files.pythonhosted.org/packages/bb/0f/72beeab4ff5221dc47127c80f8834b4bcd0cb36f6ba91c0b1d04a1233403/thop-0.1.1.post2209072238-py3-none-any.whl.metadata
-  Downloading thop-0.1.1.post2209072238-py3-none-any.whl.metadata (2.7 kB)
-Collecting torch>=1.8.0 (from -r requirements.txt (line 15))
-  Obtaining dependency information for torch>=1.8.0 from https://files.pythonhosted.org/packages/37/04/a5cd83baccbf2d4329990ec06b8abf3a644e1559a7b1f764f42d2cb77d51/torch-2.3.0-cp312-cp312-win_amd64.whl.metadata
-  Downloading torch-2.3.0-cp312-cp312-win_amd64.whl.metadata (26 kB)
-Collecting torchvision>=0.9.0 (from -r requirements.txt (line 16))
-  Obtaining dependency information for torchvision>=0.9.0 from https://files.pythonhosted.org/packages/53/8a/864c3969af219a95213a5065d453313a96598e7c744b859e99b6ac134e16/torchvision-0.18.0-cp312-cp312-win_amd64.whl.metadata
-  Downloading torchvision-0.18.0-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
-Collecting tqdm>=4.64.0 (from -r requirements.txt (line 17))
-  Obtaining dependency information for tqdm>=4.64.0 from https://files.pythonhosted.org/packages/2a/14/e75e52d521442e2fcc9f1df3c5e456aead034203d4797867980de558ab34/tqdm-4.66.2-py3-none-any.whl.metadata
-  Downloading tqdm-4.66.2-py3-none-any.whl.metadata (57 kB)
-     ---------------------------------------- 57.6/57.6 kB 3.0 MB/s eta 0:00:00
-Collecting ultralytics>=8.0.232 (from -r requirements.txt (line 18))
-  Obtaining dependency information for ultralytics>=8.0.232 from https://files.pythonhosted.org/packages/69/32/c601cfa7e45529d68f26ce4aaf8f7fc5fbfe46ce2faec2b2a4a88b501a9f/ultralytics-8.2.5-py3-none-any.whl.metadata
-  Downloading ultralytics-8.2.5-py3-none-any.whl.metadata (40 kB)
-     ---------------------------------------- 40.6/40.6 kB 2.0 MB/s eta 0:00:00
-Collecting pandas>=1.1.4 (from -r requirements.txt (line 27))
-  Obtaining dependency information for pandas>=1.1.4 from https://files.pythonhosted.org/packages/22/a5/a0b255295406ed54269814bc93723cfd1a0da63fb9aaf99e1364f07923e5/pandas-2.2.2-cp312-cp312-win_amd64.whl.metadata
-  Downloading pandas-2.2.2-cp312-cp312-win_amd64.whl.metadata (19 kB)
-Collecting seaborn>=0.11.0 (from -r requirements.txt (line 28))
-  Obtaining dependency information for seaborn>=0.11.0 from https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl.metadata
-  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Requirement already satisfied: scipy>=1.4.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 13)) (1.13.0)
+Requirement already satisfied: thop>=0.1.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 14)) (0.1.1.post2209072238)
+Requirement already satisfied: torch>=1.8.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 15)) (2.3.0)
+Requirement already satisfied: torchvision>=0.9.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 16)) (0.18.0)
+Requirement already satisfied: tqdm>=4.64.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 17)) (4.66.2)
+Requirement already satisfied: ultralytics>=8.0.232 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 18)) (8.2.5)
+Requirement already satisfied: pandas>=1.1.4 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 27)) (2.2.2)
+Requirement already satisfied: seaborn>=0.11.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 28)) (0.13.2)
 Requirement already satisfied: setuptools>=65.5.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 42)) (68.2.2)
-Collecting wheel>=0.38.0 (from -r requirements.txt (line 50))
-  Obtaining dependency information for wheel>=0.38.0 from https://files.pythonhosted.org/packages/7d/cd/d7460c9a869b16c3dd4e1e403cce337df165368c71d6af229a74699622ce/wheel-0.43.0-py3-none-any.whl.metadata
-  Downloading wheel-0.43.0-py3-none-any.whl.metadata (2.2 kB)
-Collecting gitdb<5,>=4.0.1 (from gitpython>=3.1.30->-r requirements.txt (line 5))
-  Obtaining dependency information for gitdb<5,>=4.0.1 from https://files.pythonhosted.org/packages/fd/5b/8f0c4a5bb9fd491c277c21eff7ccae71b47d43c4446c9d0c6cff2fe8c2c4/gitdb-4.0.11-py3-none-any.whl.metadata
-  Downloading gitdb-4.0.11-py3-none-any.whl.metadata (1.2 kB)
-Collecting contourpy>=1.0.1 (from matplotlib>=3.3->-r requirements.txt (line 6))
-  Obtaining dependency information for contourpy>=1.0.1 from https://files.pythonhosted.org/packages/78/38/a046bb0ebce6f530175d434e7364149e338ffe1069ee286ed8ba7f6481ee/contourpy-1.2.1-cp312-cp312-win_amd64.whl.metadata
-  Downloading contourpy-1.2.1-cp312-cp312-win_amd64.whl.metadata (5.8 kB)
-Collecting cycler>=0.10 (from matplotlib>=3.3->-r requirements.txt (line 6))
-  Obtaining dependency information for cycler>=0.10 from https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl.metadata
-  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
-Collecting fonttools>=4.22.0 (from matplotlib>=3.3->-r requirements.txt (line 6))
-  Obtaining dependency information for fonttools>=4.22.0 from https://files.pythonhosted.org/packages/56/85/0a77382e3dd8528d7f13ee97415c82b36c4879023f226e2b98d012fce077/fonttools-4.51.0-cp312-cp312-win_amd64.whl.metadata
-  Downloading fonttools-4.51.0-cp312-cp312-win_amd64.whl.metadata (162 kB)
-     -------------------------------------- 162.8/162.8 kB 2.5 MB/s eta 0:00:00
-Collecting kiwisolver>=1.3.1 (from matplotlib>=3.3->-r requirements.txt (line 6))
-  Obtaining dependency information for kiwisolver>=1.3.1 from https://files.pythonhosted.org/packages/63/50/2746566bdf4a6a842d117367d05c90cfb87ac04e9e2845aa1fa21f071362/kiwisolver-1.4.5-cp312-cp312-win_amd64.whl.metadata
-  Downloading kiwisolver-1.4.5-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+Requirement already satisfied: wheel>=0.38.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from -r requirements.txt (line 50)) (0.43.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from gitpython>=3.1.30->-r requirements.txt (line 5)) (4.0.11)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from matplotlib>=3.3->-r requirements.txt (line 6)) (1.2.1)
+Requirement already satisfied: cycler>=0.10 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from matplotlib>=3.3->-r requirements.txt (line 6)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from matplotlib>=3.3->-r requirements.txt (line 6)) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from matplotlib>=3.3->-r requirements.txt (line 6)) (1.4.5)
 Requirement already satisfied: packaging>=20.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from matplotlib>=3.3->-r requirements.txt (line 6)) (23.2)
-Collecting pyparsing>=2.3.1 (from matplotlib>=3.3->-r requirements.txt (line 6))
-  Obtaining dependency information for pyparsing>=2.3.1 from https://files.pythonhosted.org/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl.metadata
-  Downloading pyparsing-3.1.2-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from matplotlib>=3.3->-r requirements.txt (line 6)) (3.1.2)
 Requirement already satisfied: python-dateutil>=2.7 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from matplotlib>=3.3->-r requirements.txt (line 6)) (2.8.2)
 Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from requests>=2.23.0->-r requirements.txt (line 12)) (3.3.2)
 Requirement already satisfied: idna<4,>=2.5 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from requests>=2.23.0->-r requirements.txt (line 12)) (3.4)
 Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from requests>=2.23.0->-r requirements.txt (line 12)) (2.0.7)
 Requirement already satisfied: certifi>=2017.4.17 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from requests>=2.23.0->-r requirements.txt (line 12)) (2023.7.22)
-Collecting filelock (from torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for filelock from https://files.pythonhosted.org/packages/41/24/0b023b6537dfc9bae2c779353998e3e99ac7dfff4222fc6126650e93c3f3/filelock-3.14.0-py3-none-any.whl.metadata
-  Downloading filelock-3.14.0-py3-none-any.whl.metadata (2.8 kB)
-Collecting typing-extensions>=4.8.0 (from torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for typing-extensions>=4.8.0 from https://files.pythonhosted.org/packages/01/f3/936e209267d6ef7510322191003885de524fc48d1b43269810cd589ceaf5/typing_extensions-4.11.0-py3-none-any.whl.metadata
-  Downloading typing_extensions-4.11.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting sympy (from torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for sympy from https://files.pythonhosted.org/packages/d2/05/e6600db80270777c4a64238a98d442f0fd07cc8915be2a1c16da7f2b9e74/sympy-1.12-py3-none-any.whl.metadata
-  Downloading sympy-1.12-py3-none-any.whl.metadata (12 kB)
-Collecting networkx (from torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for networkx from https://files.pythonhosted.org/packages/38/e9/5f72929373e1a0e8d142a130f3f97e6ff920070f87f91c4e13e40e0fba5a/networkx-3.3-py3-none-any.whl.metadata
-  Downloading networkx-3.3-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: filelock in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from torch>=1.8.0->-r requirements.txt (line 15)) (3.14.0)
+Requirement already satisfied: typing-extensions>=4.8.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from torch>=1.8.0->-r requirements.txt (line 15)) (4.11.0)
+Requirement already satisfied: sympy in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from torch>=1.8.0->-r requirements.txt (line 15)) (1.12)
+Requirement already satisfied: networkx in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from torch>=1.8.0->-r requirements.txt (line 15)) (3.3)
 Requirement already satisfied: jinja2 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from torch>=1.8.0->-r requirements.txt (line 15)) (3.1.2)
-Collecting fsspec (from torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for fsspec from https://files.pythonhosted.org/packages/93/6d/66d48b03460768f523da62a57a7e14e5e95fdf339d79e996ce3cecda2cdb/fsspec-2024.3.1-py3-none-any.whl.metadata
-  Downloading fsspec-2024.3.1-py3-none-any.whl.metadata (6.8 kB)
-Collecting mkl<=2021.4.0,>=2021.1.1 (from torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for mkl<=2021.4.0,>=2021.1.1 from https://files.pythonhosted.org/packages/fe/1c/5f6dbf18e8b73e0a5472466f0ea8d48ce9efae39bd2ff38cebf8dce61259/mkl-2021.4.0-py2.py3-none-win_amd64.whl.metadata
-  Downloading mkl-2021.4.0-py2.py3-none-win_amd64.whl.metadata (1.4 kB)
+Requirement already satisfied: fsspec in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from torch>=1.8.0->-r requirements.txt (line 15)) (2024.3.1)
+Requirement already satisfied: mkl<=2021.4.0,>=2021.1.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from torch>=1.8.0->-r requirements.txt (line 15)) (2021.4.0)
 Requirement already satisfied: colorama in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from tqdm>=4.64.0->-r requirements.txt (line 17)) (0.4.6)
-Collecting py-cpuinfo (from ultralytics>=8.0.232->-r requirements.txt (line 18))
-  Obtaining dependency information for py-cpuinfo from https://files.pythonhosted.org/packages/e0/a9/023730ba63db1e494a271cb018dcd361bd2c917ba7004c3e49d5daf795a2/py_cpuinfo-9.0.0-py3-none-any.whl.metadata
-  Downloading py_cpuinfo-9.0.0-py3-none-any.whl.metadata (794 bytes)
-Collecting pytz>=2020.1 (from pandas>=1.1.4->-r requirements.txt (line 27))
-  Obtaining dependency information for pytz>=2020.1 from https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl.metadata
-  Downloading pytz-2024.1-py2.py3-none-any.whl.metadata (22 kB)
-Collecting tzdata>=2022.7 (from pandas>=1.1.4->-r requirements.txt (line 27))
-  Obtaining dependency information for tzdata>=2022.7 from https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl.metadata
-  Downloading tzdata-2024.1-py2.py3-none-any.whl.metadata (1.4 kB)
-Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython>=3.1.30->-r requirements.txt (line 5))
-  Obtaining dependency information for smmap<6,>=3.0.1 from https://files.pythonhosted.org/packages/a7/a5/10f97f73544edcdef54409f1d839f6049a0d79df68adbc1ceb24d1aaca42/smmap-5.0.1-py3-none-any.whl.metadata
-  Downloading smmap-5.0.1-py3-none-any.whl.metadata (4.3 kB)
-Collecting intel-openmp==2021.* (from mkl<=2021.4.0,>=2021.1.1->torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for intel-openmp==2021.* from https://files.pythonhosted.org/packages/6f/21/b590c0cc3888b24f2ac9898c41d852d7454a1695fbad34bee85dba6dc408/intel_openmp-2021.4.0-py2.py3-none-win_amd64.whl.metadata
-  Downloading intel_openmp-2021.4.0-py2.py3-none-win_amd64.whl.metadata (1.2 kB)
-Collecting tbb==2021.* (from mkl<=2021.4.0,>=2021.1.1->torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for tbb==2021.* from https://files.pythonhosted.org/packages/7b/2d/1e1c70fae8ace27e6200fb71c2372a9aeac2baba474b1609d7d466e969b4/tbb-2021.12.0-py3-none-win_amd64.whl.metadata
-  Downloading tbb-2021.12.0-py3-none-win_amd64.whl.metadata (1.1 kB)
+Requirement already satisfied: py-cpuinfo in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from ultralytics>=8.0.232->-r requirements.txt (line 18)) (9.0.0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from pandas>=1.1.4->-r requirements.txt (line 27)) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from pandas>=1.1.4->-r requirements.txt (line 27)) (2024.1)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from gitdb<5,>=4.0.1->gitpython>=3.1.30->-r requirements.txt (line 5)) (5.0.1)
+Requirement already satisfied: intel-openmp==2021.* in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from mkl<=2021.4.0,>=2021.1.1->torch>=1.8.0->-r requirements.txt (line 15)) (2021.4.0)
+Requirement already satisfied: tbb==2021.* in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from mkl<=2021.4.0,>=2021.1.1->torch>=1.8.0->-r requirements.txt (line 15)) (2021.12.0)
 Requirement already satisfied: six>=1.5 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from python-dateutil>=2.7->matplotlib>=3.3->-r requirements.txt (line 6)) (1.16.0)
 Requirement already satisfied: MarkupSafe>=2.0 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from jinja2->torch>=1.8.0->-r requirements.txt (line 15)) (2.1.3)
-Collecting mpmath>=0.19 (from sympy->torch>=1.8.0->-r requirements.txt (line 15))
-  Obtaining dependency information for mpmath>=0.19 from https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl.metadata
-  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
-Downloading GitPython-3.1.43-py3-none-any.whl (207 kB)
-   ---------------------------------------- 207.3/207.3 kB 3.1 MB/s eta 0:00:00
-Downloading matplotlib-3.8.4-cp312-cp312-win_amd64.whl (7.7 MB)
-   ---------------------------------------- 7.7/7.7 MB 7.9 MB/s eta 0:00:00
-Downloading numpy-1.26.4-cp312-cp312-win_amd64.whl (15.5 MB)
-   ---------------------------------------- 15.5/15.5 MB 10.7 MB/s eta 0:00:00
-Downloading opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl (38.6 MB)
-   ---------------------------------------- 38.6/38.6 MB 9.6 MB/s eta 0:00:00
-Downloading pillow-10.3.0-cp312-cp312-win_amd64.whl (2.5 MB)
-   ---------------------------------------- 2.5/2.5 MB 10.1 MB/s eta 0:00:00
-Downloading scipy-1.13.0-cp312-cp312-win_amd64.whl (45.9 MB)
-   ---------------------------------------- 45.9/45.9 MB 9.8 MB/s eta 0:00:00
-Downloading thop-0.1.1.post2209072238-py3-none-any.whl (15 kB)
-Downloading torch-2.3.0-cp312-cp312-win_amd64.whl (159.7 MB)
-   ---------------------------------------- 159.7/159.7 MB 8.4 MB/s eta 0:00:00
-Downloading torchvision-0.18.0-cp312-cp312-win_amd64.whl (1.2 MB)
-   ---------------------------------------- 1.2/1.2 MB 9.3 MB/s eta 0:00:00
-Downloading tqdm-4.66.2-py3-none-any.whl (78 kB)
-   ---------------------------------------- 78.3/78.3 kB 4.5 MB/s eta 0:00:00
-Downloading ultralytics-8.2.5-py3-none-any.whl (754 kB)
-   --------------------------------------- 755.0/755.0 kB 11.8 MB/s eta 0:00:00
-Downloading pandas-2.2.2-cp312-cp312-win_amd64.whl (11.5 MB)
-   ---------------------------------------- 11.5/11.5 MB 11.3 MB/s eta 0:00:00
-Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
-   ---------------------------------------- 294.9/294.9 kB 9.2 MB/s eta 0:00:00
-Downloading wheel-0.43.0-py3-none-any.whl (65 kB)
-   ---------------------------------------- 65.8/65.8 kB 3.5 MB/s eta 0:00:00
-Downloading contourpy-1.2.1-cp312-cp312-win_amd64.whl (189 kB)
-   ---------------------------------------- 189.9/189.9 kB 5.8 MB/s eta 0:00:00
-Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
-Downloading fonttools-4.51.0-cp312-cp312-win_amd64.whl (2.2 MB)
-   ---------------------------------------- 2.2/2.2 MB 10.7 MB/s eta 0:00:00
-Downloading gitdb-4.0.11-py3-none-any.whl (62 kB)
-   ---------------------------------------- 62.7/62.7 kB 3.5 MB/s eta 0:00:00
-Downloading kiwisolver-1.4.5-cp312-cp312-win_amd64.whl (56 kB)
-   ---------------------------------------- 56.0/56.0 kB 2.9 MB/s eta 0:00:00
-Downloading mkl-2021.4.0-py2.py3-none-win_amd64.whl (228.5 MB)
-   ---------------------------------------- 228.5/228.5 MB 7.4 MB/s eta 0:00:00
-Downloading intel_openmp-2021.4.0-py2.py3-none-win_amd64.whl (3.5 MB)
-   ---------------------------------------- 3.5/3.5 MB 11.2 MB/s eta 0:00:00
-Downloading tbb-2021.12.0-py3-none-win_amd64.whl (286 kB)
-   ---------------------------------------- 286.4/286.4 kB 8.9 MB/s eta 0:00:00
-Downloading pyparsing-3.1.2-py3-none-any.whl (103 kB)
-   ---------------------------------------- 103.2/103.2 kB ? eta 0:00:00
-Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
-   ---------------------------------------- 505.5/505.5 kB 8.0 MB/s eta 0:00:00
-Downloading typing_extensions-4.11.0-py3-none-any.whl (34 kB)
-Downloading tzdata-2024.1-py2.py3-none-any.whl (345 kB)
-   --------------------------------------- 345.4/345.4 kB 10.5 MB/s eta 0:00:00
-Downloading filelock-3.14.0-py3-none-any.whl (12 kB)
-Downloading fsspec-2024.3.1-py3-none-any.whl (171 kB)
-   ---------------------------------------- 172.0/172.0 kB 5.1 MB/s eta 0:00:00
-Downloading networkx-3.3-py3-none-any.whl (1.7 MB)
-   ---------------------------------------- 1.7/1.7 MB 10.8 MB/s eta 0:00:00
-Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
-Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
-   ---------------------------------------- 5.7/5.7 MB 11.1 MB/s eta 0:00:00
-Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
-   ---------------------------------------- 536.2/536.2 kB 8.5 MB/s eta 0:00:00
-Downloading smmap-5.0.1-py3-none-any.whl (24 kB)
-Installing collected packages: tbb, pytz, py-cpuinfo, mpmath, intel-openmp, wheel, tzdata, typing-extensions, tqdm, sympy, smmap, pyparsing, pillow, numpy, networkx, mkl, kiwisolver, fsspec, fonttools, filelock, cycler, torch, scipy, pandas, opencv-python, gitdb, contourpy, torchvision, thop, matplotlib, gitpython, seaborn, ultralytics
-Successfully installed contourpy-1.2.1 cycler-0.12.1 filelock-3.14.0 fonttools-4.51.0 fsspec-2024.3.1 gitdb-4.0.11 gitpython-3.1.43 intel-openmp-2021.4.0 kiwisolver-1.4.5 matplotlib-3.8.4 mkl-2021.4.0 mpmath-1.3.0 networkx-3.3 numpy-1.26.4 opencv-python-4.9.0.80 pandas-2.2.2 pillow-10.3.0 py-cpuinfo-9.0.0 pyparsing-3.1.2 pytz-2024.1 scipy-1.13.0 seaborn-0.13.2 smmap-5.0.1 sympy-1.12 tbb-2021.12.0 thop-0.1.1.post2209072238 torch-2.3.0 torchvision-0.18.0 tqdm-4.66.2 typing-extensions-4.11.0 tzdata-2024.1 ultralytics-8.2.5 wheel-0.43.0
+Requirement already satisfied: mpmath>=0.19 in c:\users\tiovskiy\appdata\local\programs\python\python312\lib\site-packages (from sympy->torch>=1.8.0->-r requirements.txt (line 15)) (1.3.0)
